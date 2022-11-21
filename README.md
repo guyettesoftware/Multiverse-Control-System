@@ -14,6 +14,16 @@ Changes the current POV to the specified multiverse
 ## POV "your_multiverse_name_here_without_quotes", Filters{onlyThisMultiverse = true}: 
 Changes the current POV to the specified multiverse, and does not show any branches off it
 
+## pov_nickname = POV "your_multiverse_name_here_without_quotes", Filters{onlyThisMultiverse = true}: 
+Saves a specific POV to a varriable name to indicated its meaning. For example:
+
+```
+developer_pov = POV "developer_multiverse", Filters{onlyThisMultiverse = true}: 
+```
+
+# Set User POVs
+```user_name_123 = developer_pov```
+
 # Point of View
 You create a multiverse. You create branches. Lots of branches. You make mistakes.
 So many, that it's overwhelming. Things get cluttered. So how do we clean them?
