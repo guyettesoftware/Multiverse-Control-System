@@ -16,12 +16,6 @@ Multiverse_1: Current POV
 ```
           
 you notice that "mylizard.jpg" and "myPotato.jpg" are in the wrong places. 
-
-Point of View: Second Multiverse Only, Comment: "Viewing the corrected version where all the animals are in their correct paths.
-Multiverse/Animals/Cats/mylizard.jpg
-          /Animals/Dogs/myPotato.jpg
-          Multiverse_2/Animals/Cats/mycat.jpg
-                    /Animals/Dogs/mydog.jpg
                     
 ```
 Multiverse_1: Current POV
