@@ -22,7 +22,7 @@ developer_pov = POV "developer_multiverse", Filters{onlyThisMultiverse = true}:
 ```
 
 # Set User POVs
-```user_name_123 = developer_pov```
+```user_name_123.addPov(developer_pov)```
 
 # Point of View
 You create a multiverse. You create branches. Lots of branches. You make mistakes.
