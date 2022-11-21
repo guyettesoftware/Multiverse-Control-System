@@ -2,7 +2,7 @@
 Version control with no destructive commands
 
 # Point of View
-You create a multiverse. You create branches. Lots of branches.
+You create a multiverse. You create branches. Lots of branches. You make mistakes.
 So many, that it's overwhelming. Things get cluttered. So how do we clean them?
 
 Point of View. Point of view allows you to show all the branches you want.
