@@ -15,7 +15,8 @@ Multiverse_1: Current POV
     Dogs/myPotato.jpg
 ```
           
-you notice that "mylizard.jpg" and "myPotato.jpg" are in the wrong places. 
+you notice that "mylizard.jpg" and "myPotato.jpg" are in the wrong places.
+So you create a new branch Multiverse_2. Notice: Multiverse names are sequential, and cannot be changed.
                     
 ```
 Multiverse_1: Current POV
