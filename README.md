@@ -10,7 +10,7 @@ Point of View. Point of view allows you to show all the branches you want.
 For example if we create the multiverse...
 
 ```
-Multiverse_1
+Multiverse_1: Current POV
     Cats/mylizard.jpg
     Dogs/myPotato.jpg
 ```
@@ -22,9 +22,12 @@ Multiverse/Animals/Cats/mylizard.jpg
           /Animals/Dogs/myPotato.jpg
           Multiverse_2/Animals/Cats/mycat.jpg
                     /Animals/Dogs/mydog.jpg
-
-Now, if we run the POV command, standing for Point of View, we only see:
+                    
 ```
-Multiverse_2/Animals/Cats/mycat.jpg
-          /Animals/Dogs/mydog.jpg
-```
+Multiverse_1: Current POV
+    Cats/mylizard.jpg
+    Dogs/myPotato.jpg
+    Multiverse_2: Created to put correct photos in correct locations 
+        Cats/mycat.jpg
+        Dogs/mydog.jpg
+```  
