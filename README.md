@@ -6,6 +6,8 @@ CB:  Create new branch.
 
 PNB: Propose new branch if you don't have direct Create Branch permissions.
 
+POV "your_multiverse_name_here_without_quotes": Changes the current POV to the specified multiverse
+
 # Point of View
 You create a multiverse. You create branches. Lots of branches. You make mistakes.
 So many, that it's overwhelming. Things get cluttered. So how do we clean them?
