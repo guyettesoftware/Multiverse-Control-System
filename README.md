@@ -3,6 +3,7 @@ Version control with no destructive commands
 
 # Commands
 CB:  Create new branch.
+
 PNB: Propose new branch if you don't have direct Create Branch permissions.
 
 # Point of View
