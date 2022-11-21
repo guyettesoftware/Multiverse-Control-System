@@ -5,7 +5,8 @@ Version control with no destructive commands
 You create a multiverse. You create branches. Lots of branches. You make mistakes.
 So many, that it's overwhelming. Things get cluttered. So how do we clean them?
 
-Point of View. Point of view allows you to show all the branches you want.
+Point of View. Point of view allows you to show all the branches you want by using filters.
+We'll start off simple with no filters.
 
 For example if we create the multiverse...
 
