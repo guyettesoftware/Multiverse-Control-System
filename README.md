@@ -2,11 +2,17 @@
 Version control with no destructive commands
 
 # Commands
-CB:  Create new branch.
+## CB:  
+Create new branch.
 
-PNB: Propose new branch if you don't have direct Create Branch permissions.
+## PNB: 
+Propose new branch if you don't have direct Create Branch permissions.
 
-POV "your_multiverse_name_here_without_quotes": Changes the current POV to the specified multiverse
+## POV "your_multiverse_name_here_without_quotes": 
+Changes the current POV to the specified multiverse
+
+## POV "your_multiverse_name_here_without_quotes", Filters{onlyThisMultiverse = true}: 
+Changes the current POV to the specified multiverse, and does not show any branches off it
 
 # Point of View
 You create a multiverse. You create branches. Lots of branches. You make mistakes.
