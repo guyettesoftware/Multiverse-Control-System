@@ -9,8 +9,11 @@ Point of View. Point of view allows you to show all the branches you want.
 
 For example if we create the multiverse...
 
-Multiverse/Animals/Cats/mylizard.jpg
-          /Animals/Dogs/myPotato.jpg
+```
+Multiverse_1
+Animals/Cats/mylizard.jpg
+Animals/Dogs/myPotato.jpg
+```
           
 you notice that "mylizard.jpg" and "myPotato.jpg" are in the wrong places. 
 
