@@ -19,7 +19,7 @@ var myLocalRepo = Repository.Local.OpenRepository(repositoryLocation)
 
 ## Get Remote Repository Access
 ```C#
-var myRemoteRepo = Repository.Remote.OpenConnection(myCredentionals)
+var myRemoteRepo = Repository.Remote.OpenConnection(repositoryLocation, myCredentionals)
 ```
 
 ## Get Current Branch
