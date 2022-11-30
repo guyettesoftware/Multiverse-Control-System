@@ -9,12 +9,12 @@ After realizing git is a dumpster fire, I decided to write my own specification 
 
 ## Create Local Repository 
 ```C#
-var myRepo = Repository.Local.CreateRepository(repositoryLocation, repositoryName)
+var myLocalRepo = Repository.Local.CreateRepository(repositoryLocation, repositoryName)
 ```
 
 ## Get Remote Repository Access
 ```C#
-var myRepo = myRepo.Repository.Remote.OpenConnection(myCredentionals)
+var myRemoteRepo = Repository.Remote.OpenConnection(myCredentionals)
 ```
 
 ## Get Current Branch
