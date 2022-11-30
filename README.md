@@ -1,5 +1,5 @@
 # Multiverse-Control-System
-Version control with no destructive commands
+Version control with no destructive commands, and roles built in.
 
 # Commands
 ## CB:  
