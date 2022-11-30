@@ -12,6 +12,11 @@ After realizing git is a dumpster fire, I decided to write my own specification 
 var myLocalRepo = Repository.Local.CreateRepository(repositoryLocation, repositoryName)
 ```
 
+## Open Local Repository 
+```C#
+var myLocalRepo = Repository.Local.OpenRepository(repositoryLocation)
+```
+
 ## Get Remote Repository Access
 ```C#
 var myRemoteRepo = Repository.Remote.OpenConnection(myCredentionals)
