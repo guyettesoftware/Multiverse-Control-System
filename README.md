@@ -2,7 +2,8 @@
 Version control with no destructive commands, and roles built in.
 C# native interface
 
-
+# Background
+After realizing git is a dumpster fire, I decided to write my own specification to save others from this current nightmare.
 
 # Commands
 
