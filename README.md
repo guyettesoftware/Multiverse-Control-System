@@ -1,5 +1,5 @@
 # Multiverse-Control-System
-Version control with no destructive commands, roles, and automated workflow managment built in.
+Event sourced Version control with no destructive commands, roles, and automated workflow managment built in.
 C# native interface
 
 # Background
