@@ -29,6 +29,10 @@ var referenceToNewBranch = currentBranch.CreateNewBranch("Branch Alias Here")
 
 ## PNB: 
 Propose new branch if you don't have direct Create Branch permissions.
+## Create New Branch  
+```C#
+var referenceToProposal = currentBranch.ProposeNewBranch("Proposed Branch Alias Here")
+```
 
 ## POV "your_multiverse_name_here_without_quotes": 
 Changes the current POV to the specified multiverse
