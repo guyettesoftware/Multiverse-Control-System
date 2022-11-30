@@ -5,6 +5,9 @@ C# native interface
 # Background
 After realizing git is a dumpster fire, I decided to write my own specification to save others from this current nightmare.
 
+# Design 
+Leaning on auto generated code and static typing, we can explore the multiverse in an easy way with our IDEs.
+
 # Commands
 
 ## View List of All Events
