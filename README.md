@@ -9,7 +9,12 @@ After realizing git is a dumpster fire, I decided to write my own specification 
 
 ## View List of All Events
 ```C#
-NameOfMyRepo.Events.PrintAllEvents()
+NameOfMyRepo.Branch.AllBranches.Events.PrintAllEvents()
+```
+
+## View List of All Events for Specific Branch
+```C#
+NameOfMyRepo.Branch.Testing.Events.PrintAllEvents()
 ```
 
 ## Create Local Repository 
