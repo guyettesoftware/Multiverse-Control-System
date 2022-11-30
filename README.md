@@ -9,7 +9,7 @@ After realizing git is a dumpster fire, I decided to write my own specification 
 
 ## View List of All Events
 ```C#
-Multiverse.NameOfMyRepo.Events.PrintAllEvents()
+NameOfMyRepo.Events.PrintAllEvents()
 ```
 
 ## Create Local Repository 
