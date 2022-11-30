@@ -8,11 +8,13 @@ C# native interface
 
 ## Get Current Branch
 ```C#
-var branch = Branch.GetCurrentBranch()
+var currentBranch = Branch.GetCurrentBranch()
 ```
 
-## CB:  
-Create new branch.
+## Create New Branch  
+```C#
+var referenceToNewBranch = currentBranch.CreateNewBranch("Branch Alias Here")
+```
 
 ## PNB: 
 Propose new branch if you don't have direct Create Branch permissions.
