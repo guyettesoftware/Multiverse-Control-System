@@ -2,7 +2,15 @@
 Version control with no destructive commands, and roles built in.
 C# native interface
 
+
+
 # Commands
+
+## Get Current Branch
+```C#
+var branch = Branch.GetCurrentBranch()
+```
+
 ## CB:  
 Create new branch.
 
