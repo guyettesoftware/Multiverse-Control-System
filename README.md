@@ -22,17 +22,17 @@ NameOfMyRepo.Branch.Testing.Events.PrintAllEvents()
 
 ## Create Local Repository 
 ```C#
-var myLocalRepo = Repository.Local.CreateRepository(repositoryLocation, repositoryName)
+var myLocalRepo = Repositories.NameOfMyRepo.Local.CreateRepository(repositoryLocation, repositoryName)
 ```
 
 ## Open Local Repository 
 ```C#
-var myLocalRepo = Repository.Local.OpenRepository(repositoryLocation)
+var myLocalRepo = Repositories.NameOfMyRepo.Local.OpenRepository(repositoryLocation)
 ```
 
 ## Get Remote Repository Access
 ```C#
-var myRemoteRepo = Repository.Remote.OpenConnection(repositoryLocation, myCredentionals)
+var myRemoteRepo = Repositories.NameOfMyRepo.Remote.OpenConnection(repositoryLocation, myCredentionals)
 ```
 
 ## Get Current Branch
