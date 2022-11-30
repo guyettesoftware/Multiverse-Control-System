@@ -7,6 +7,11 @@ After realizing git is a dumpster fire, I decided to write my own specification 
 
 # Commands
 
+## View List of All Events
+```C#
+Multiverse.NameOfMyRepo.Events.PrintAllEvents()
+```
+
 ## Create Local Repository 
 ```C#
 var myLocalRepo = Repository.Local.CreateRepository(repositoryLocation, repositoryName)
