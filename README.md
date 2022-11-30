@@ -12,7 +12,7 @@ Leaning on auto generated code and static typing, we can explore the multiverse 
 
 ## View List of All Events
 ```C#
-NameOfMyRepo.Branch.AllBranches.Events.PrintAllEvents()
+Repositories.NameOfMyRepo.Branch.AllBranches.Events.PrintAllEvents()
 ```
 
 ## View List of All Events for Specific Branch
