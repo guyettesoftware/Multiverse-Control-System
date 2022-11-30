@@ -6,9 +6,14 @@ C# native interface
 
 # Commands
 
+## Get Remote Repository Access
+```C#
+var myRepo = Repository.Remote.OpenConnection(myCredentionals)
+```
+
 ## Get Current Branch
 ```C#
-var currentBranch = Branch.GetCurrentBranch()
+var currentBranch = Branch.GetCurrentBranch(myRepo)
 ```
 
 ## Create New Branch  
