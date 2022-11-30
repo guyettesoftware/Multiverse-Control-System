@@ -43,6 +43,12 @@ var referenceToProposal = currentBranch.ProposeNewBranch("Proposed Branch Alias 
 var referenceToNewBranch = currentBranch.CreateNewBranch("New Branch Alias Here")
 ```
 
+## Create Commit Gate 
+Commit gets automatically rejected if it fails the commit gate tests.
+```C#
+currentBranch.CreateCommitGate(commitGateHere)
+```
+
 ## POV "your_multiverse_name_here_without_quotes": 
 Changes the current POV to the specified multiverse
 
