@@ -14,12 +14,12 @@ var myRepo = Repository.Local.CreateRepository(repositoryLocation, repositoryNam
 
 ## Get Remote Repository Access
 ```C#
-var myRepo = Repository.Remote.OpenConnection(myCredentionals)
+var myRepo = myRepo.Repository.Remote.OpenConnection(myCredentionals)
 ```
 
 ## Get Current Branch
 ```C#
-var currentBranch = Branch.GetCurrentBranch(myRepo)
+var currentBranch = myRepo.Branch.GetCurrentBranch(myRepo)
 ```
 
 ## Create New Branch  
